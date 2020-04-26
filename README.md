@@ -19,3 +19,9 @@ This uses all of the .BAK files that you created with #1 and reverts them.
 
 3) ClassifySubModule.ps1 -
 Indexes all of your submodule.XML's and reads the name value, prompts you to classify them. If you have previously classified them-- or if the module name starts with the classification -- it will skip it automatically.
+
+
+Future thoughts:
+You can add "First" and "Second" etc Categories to make sure your load order is always correct. That's also one way to use this.
+
+It would be possible for mod creators to add an XML flag to pick up on classifications for-- to allow automatic sorting/customizations through launchers, but that requires a lot of buy in and coordination from the community.
